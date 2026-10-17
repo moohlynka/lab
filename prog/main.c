@@ -1,6 +1,13 @@
-   #include <stdio.h>
+#include <stdio.h>
 
-   int main(void) {
-       printf("Hello, world!\n");
-       return 0;
-   }
+int main(void) {
+    int a, b;
+
+    printf("Enter first integer: ");
+    scanf("%d", &a);
+    printf("Enter second integer: ");
+    scanf("%d", &b);
+    printf("You entered: %d and %d\n", a, b);
+
+    return 0;
+}
